@@ -3,3 +3,46 @@
   margin: 0;
   box-sizing: border-box;
 }
+body {
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: #1e2226;
+}
+.switch {
+  position: relative;
+  width: 100px;
+  height: 355px;
+  border-radius: 40px;
+  background-color: #14181c;
+  overflow: scroll;
+  scroll-snap-type: y mandatory;
+  scroll-behavior: smooth;
+  transition: 0.1s ease;
+}
+.switch .btn {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 80px;
+  height: 80px;
+  margin: 10px;
+  border-radius: 32px;
+  background-color: #000810;
+  cursor: grab;
+}
+
+.switch .btn i {
+  font-size: 2rem;
+  color: #ff4a3a;
+
+  transition: 0.1s ease;
+}
+.switch.active .btn i {
+  color: #0b8500;
+}
+.switch .space {
+  height: 255px;
+}
