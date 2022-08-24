@@ -45,4 +45,5 @@ body {
 }
 .switch .space {
   height: 255px;
+  scroll-snap-align: center;
 }
