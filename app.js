@@ -19,9 +19,6 @@ switchBtn.addEventListener('scroll', (e) => {
 });
 
 switchBtn.addEventListener('dragend', () => {
-  if (switchBtn.className.includes('active')) {
-    switchBtn.scrollTop = 0;
-  } else {
-    switchBtn.scrollTop = 255;
-  }
+  if (switchBtn.className.includes('active')) switchBtn.scrollTop = 0;
+  else switchBtn.scrollTop = 255;
 });

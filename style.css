@@ -19,6 +19,7 @@ body {
   overflow: scroll;
   scroll-snap-type: y mandatory;
   scroll-behavior: smooth;
+  scrollbar-width: none;
   transition: 0.1s ease;
 }
 .switch .btn {
