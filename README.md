@@ -1,5 +1,4 @@
 # JS-LightDark-Mode
-# JS-Password-Generator
 
 
 ### Use Skills
