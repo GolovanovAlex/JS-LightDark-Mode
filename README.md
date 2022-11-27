@@ -1,4 +1,4 @@
-# JS Ligh tDark Mode
+# JS Light Dark Mode
 
 ### Use Skills
 
